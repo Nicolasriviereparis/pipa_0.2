@@ -1,0 +1,10 @@
+2020-02-05T14:42:37+00:00 CRITICAL Uncaught Error: Undefined class constant 'PROFILE_DATA_OPTION' in /Applications/MAMP/htdocs/pipa_v0.2/wp-content/plugins/woocommerce-admin/src/Notes/WC_Admin_Notes_Onboarding_Email_Marketing.php:35
+Stack trace:
+#0 /Applications/MAMP/htdocs/pipa_v0.2/wp-content/plugins/woocommerce-admin/src/Events.php(70): Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes_Onboarding_Email_Marketing::possibly_add_onboarding_email_marketing_note()
+#1 /Applications/MAMP/htdocs/pipa_v0.2/wp-includes/class-wp-hook.php(288): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#2 /Applications/MAMP/htdocs/pipa_v0.2/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /Applications/MAMP/htdocs/pipa_v0.2/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#4 /Applications/MAMP/htdocs/pipa_v0.2/wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#5 {main}
+  thrown dans /Applications/MAMP/htdocs/pipa_v0.2/wp-content/plugins/woocommerce-admin/src/Notes/WC_Admin_Notes_Onboarding_Email_Marketing.php à la ligne 35
+
